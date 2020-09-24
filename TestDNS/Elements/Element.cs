@@ -13,6 +13,9 @@ namespace TestDNS
         /// </summary>
         public string Path { get; }
 
+        /// <summary>
+        /// Element's depth from root element
+        /// </summary>
         public int Depth => Parent?.Depth + 1 ?? 0;
 
         /// <summary>
@@ -24,11 +27,15 @@ namespace TestDNS
         /// Element's parent directory
         /// </summary>
         public Dir Parent { get; }
+
+        /// <summary>
+        /// Creation or last edit time
+        /// </summary>
         public DateTime? Time { get; }
 
         /// <param name="path">Path to element including it's own name</param>
         /// <param name="parent">Element's parent directory</param>
-        /// <param name="time"></param>
+        /// <param name="time">Element's creation or last edit time</param>
         protected Element(string path, Dir parent, DateTime? time)
         {
             Path = path;

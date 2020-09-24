@@ -19,9 +19,9 @@ namespace TestDNS
         public string ReadableSize => Size?.BytesToString();
 
         /// <param name="name">Filename including its path</param>
-        /// <param name="parent"></param>
-        /// <param name="time"></param>
-        /// <param name="size"></param>
+        /// <param name="parent">file's parent directory</param>
+        /// <param name="time">time of creation or last edit</param>
+        /// <param name="size">size of file in bytes</param>
         public File(string name, Dir parent, DateTime? time, long? size)
         : base(name, parent, time) { Size = size; }
     }

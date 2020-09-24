@@ -10,6 +10,8 @@ namespace TestDNS
     {
         public static string BytesToString(this long byteCount)
         {
+            if (byteCount == 0)
+                return "empty";
             string[] suf = { "B", "KB", "MB", "GB", "TB", "PB", "EB" };
             if (byteCount == 0)
                 return "0" + suf[0];

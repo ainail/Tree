@@ -5,3 +5,10 @@ C:\Users\ainai\source\repos\TestDNS\TestDNS\bin\Debug\TestDNS.exe
 C:\Users\ainai\source\repos\TestDNS\TestDNS\bin\Debug\TestDNS.pdb
 C:\Users\ainai\source\repos\TestDNS\TestDNS\obj\Debug\TestDNS.exe
 C:\Users\ainai\source\repos\TestDNS\TestDNS\obj\Debug\TestDNS.pdb
+C:\Users\ainai\Desktop\git\Tree\TestDNS\bin\Debug\TestDNS.exe.config
+C:\Users\ainai\Desktop\git\Tree\TestDNS\bin\Debug\TestDNS.exe
+C:\Users\ainai\Desktop\git\Tree\TestDNS\bin\Debug\TestDNS.pdb
+C:\Users\ainai\Desktop\git\Tree\TestDNS\obj\Debug\TestDNS.csprojAssemblyReference.cache
+C:\Users\ainai\Desktop\git\Tree\TestDNS\obj\Debug\TestDNS.csproj.CoreCompileInputs.cache
+C:\Users\ainai\Desktop\git\Tree\TestDNS\obj\Debug\TestDNS.exe
+C:\Users\ainai\Desktop\git\Tree\TestDNS\obj\Debug\TestDNS.pdb

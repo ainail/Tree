@@ -11,21 +11,31 @@ namespace TestDNS
     {
         /// <param name="path">Path to directory including it's own name</param>
         /// <param name="parent">Parent directory of current directory</param>
-        /// <param name="time"></param>
+        /// <param name="time">Time of creation or last edit</param>
         public Dir(string path, Dir parent, DateTime? time)
             : base(path, parent, time)
         {
             SubDirs = new List<Dir>();
             Files = new List<File>();
         }
+
         /// <summary>
         /// Directories contained in current directory
         /// </summary>
         public List<Dir> SubDirs { get; set; }
+
         /// <summary>
         /// Files contained in current directory
         /// </summary>
         public List<File> Files { get; set; }
+
+        /// <summary>
+        /// Method that recursive gets all directories
+        /// </summary>
+        /// <param name="path">path to dir</param>
+        /// <param name="parent">parent dir, null if it's root</param>
+        /// <param name="settings">settings such as sorting, size counting and so on</param>
+        /// <returns></returns>
         public static Dir GetAllDirectories(string path, Dir parent = null, Settings settings = null)
         {
             DateTime? time = null;
